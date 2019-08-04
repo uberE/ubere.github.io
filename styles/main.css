@@ -1,4 +1,13 @@
-body {
-     background-color:  #000000;
-     color: #ffffff;
+h1 {
+  colour: blue;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+p {
+  color: red;
+}
+
+p, li {
+  text-decoration: underline;
 }
