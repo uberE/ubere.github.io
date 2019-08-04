@@ -3,6 +3,10 @@ body {
     color: white;
 }
 
+div.wrapper {
+  margin: 0 auto;
+  width: 50%;
+}
 
 div.header {
   text-align: center;
@@ -10,27 +14,24 @@ div.header {
   color: white;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #333;
-  overflow: hidden;
+small {
+  color: #7f7f7f;
 }
 
-li {
-  float: left;
-
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
 }
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+.nav li{
+    display:inline;
 }
-
-li a:hover {
-  background-color: #111;
+.nav a{
+    display:inline-block;
+    padding:10px;
+    text-decoration: none;
+    color: #ccc;
 }
