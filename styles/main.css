@@ -1,0 +1,52 @@
+body {
+    background-color: #000000;
+    color: white;
+    font-family: 'Noto Sans';
+}
+
+/* Add a margin to either side of the page */
+div.wrapper {
+  margin: 0 auto;
+  width: 50%;
+}
+
+div.header {
+  text-align: center;
+  font-family: 'IBM Plex Mono';
+  font-size: 12px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+main {
+  text-align: center;
+  margin-top: 100px;
+}
+
+small {
+  color: #7f7f7f;
+}
+
+/* Top navigation bar */
+.nav{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    width: 30%;
+    transform: translate(-50%,-50%);
+    border:1px 0 #ccc;
+    border-width:3px;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+    text-decoration: none;
+    color: #ccc;
+}
