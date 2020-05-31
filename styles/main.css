@@ -1,52 +1,61 @@
 body {
-    background-color: #000000;
-    color: white;
+    color: #666666;
+    background-color: #f9f8f6;
     font-family: 'Noto Sans';
+    line-height: 1.4em;
+    margin: 0;
+
 }
 
-/* Add a margin to either side of the page */
 div.wrapper {
-  margin: 0 auto;
-  width: 50%;
+    width: 940px;
+    margin: 20px auto 20px auto;
+    border: 2px solid #000000;
+    background-color: #ffffff;
 }
 
-div.header {
-  text-align: center;
-  font-family: 'IBM Plex Mono';
-  font-size: 12px;
-  color: white;
-  margin-bottom: 40px;
+header {
+  height: 160px;
+  background-image: url("images/header.jpg");
 }
 
-main {
-  text-align: center;
-  margin-top: 100px;
+h1 {
+  text-indent: -9999px;
+  width: 940px;
+  height: 130px;
+  margin: 0px;
 }
 
-small {
-  color: #7f7f7f;
+nav {
+    clear: both;
+    color: #ffffff;
+    background-color: #aeaca8;
+    height: 30px;
 }
 
-/* Top navigation bar */
-.nav{
-    position: absolute;
-    left: 50%;
-    right: 50%;
-    width: 30%;
-    transform: translate(-50%,-50%);
-    border:1px 0 #ccc;
-    border-width:3px;
-    list-style:none;
-    margin:0;
-    padding:0;
-    text-align:center;
+nav ul {
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
 }
-.nav li{
-    display:inline;
+
+nav li {
+  display: inline;
+  margin-right: 40px;
 }
-.nav a{
-    display:inline-block;
-    padding:10px;
-    text-decoration: none;
-    color: #ccc;
+
+nav li a {
+  color: #ffffff;
+}
+
+nav li a:hover, nav li a.current {
+  color: #000000;
+}
+
+a {
+  color: #de6581;
+  text-decoration: none;
+}
+
+h1, h2 h3 {
+  font-weight: normal;
 }
