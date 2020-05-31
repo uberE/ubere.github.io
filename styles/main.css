@@ -1,6 +1,6 @@
 body {
     color: #666666;
-    background-color: #f9f8f6;
+    background-color: #1b1a1a;
     font-family: 'Noto Sans';
     line-height: 1.4em;
     margin: 0;
@@ -10,8 +10,8 @@ body {
 div.wrapper {
     width: 940px;
     margin: 20px auto 20px auto;
-    border: 2px solid #000000;
-    background-color: #ffffff;
+    border: 1px solid #1b1a1a;
+    background-color: #1b1a1a;
 }
 
 header {
@@ -29,7 +29,8 @@ h1 {
 nav {
     clear: both;
     color: #ffffff;
-    background-color: #aeaca8;
+    background-color: #1b1a1a;
+    border: 1px solid #ffffff;
     height: 30px;
 }
 
