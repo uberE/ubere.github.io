@@ -16,7 +16,7 @@ div.wrapper {
 
 header {
   height: 160px;
-  background-image: url(styles/images/"header.jpg");
+  background-image: url('../images/header.jpg');
 }
 
 h1 {
